@@ -2,8 +2,10 @@
 
 //DOM= document object mode 
 
-var caja = document.getElementById("mi caja");
-caja.style.background = "red";
-caja.style.padding = "50px";
+var id = document.getElementById("mi caja");
 
-console.log(caja);
+
+if (id.innerHTML() === 'string');
+var textoId = id.innerHTML();
+
+console.log(id);
